@@ -10,7 +10,7 @@ int main() {
 	
 	while(n!=0)
 	{
-		printf("\nDigite o %i° número: \n", i);
+		printf("\nDigite o %iÂ° nÃºmero: \n", i);
 		scanf("%i", &n);
 		if(n<0)
 		{
@@ -24,7 +24,7 @@ int main() {
 	
 	printf("\nQuantidade de negativos: %i\n", ni);
 	printf("\nSoma dos negativos: %.1f\n", soma);
-	printf("\nMédia dos negativos: %.1f\n\n", media);
+	printf("\nMÃ©dia dos negativos: %.1f\n\n", media);
     
     system("pause");
     return 0;

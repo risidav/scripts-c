@@ -7,7 +7,7 @@ int main() {
 	
 	setlocale(LC_ALL, "");
 	
-	printf("\nNúmeros entre 1000 e 1999 que resultam em resto 5 se divididos por 11: \n");
+	printf("\nNÃºmeros entre 1000 e 1999 que resultam em resto 5 se divididos por 11: \n");
 
 	while(i<=1999)
 	{

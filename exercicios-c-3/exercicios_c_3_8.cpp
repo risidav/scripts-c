@@ -3,30 +3,39 @@
 #include <locale.h>
 
 int main() {
-	int i=1, pi=0, n=1; 
+	int i=1, n, menor=0, maior=0;
 	float soma, media;
 	
 	setlocale(LC_ALL, "");
 	
-	while(n!=0)
+	printf("\nLeitura de 500 números\n\n");
+	
+	do
 	{
 		printf("\nDigite o %i° número: \n", i);
 		scanf("%i", &n);
-		if(n%2==0 && n!=0)
+
+		if(n>maior)
 		{
-			soma+=n;
-			pi++;
+			maior=n;
 		}
+		if(n<menor)
+		{
+			menor=n;
+		}
+		soma+=n;
 		i++;
 	}
+	while(i<=500);
 	
-	media=soma/pi;
+	media=soma/(i-1);
 	
-	printf("\nQuantidade de números pares: %i\n", pi);
-	printf("\nSoma dos números: %.1f\n", soma);
+	printf("\nMaior número digitado: %i\n", maior);
+	printf("\nMenor número digitado: %i\n", menor);
 	printf("\nMédia dos números: %.1f\n\n", media);
     
     system("pause");
     return 0;
 }
+
 

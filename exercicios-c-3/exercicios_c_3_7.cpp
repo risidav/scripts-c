@@ -13,7 +13,7 @@ int main() {
 	
 	while(n!=0)
 	{
-		printf("\nDigite a ação: \n");
+		printf("\nDigite a aÃ§Ã£o: \n");
 		scanf("%i", &n);
 		switch(n)
 		{
@@ -37,7 +37,7 @@ int main() {
 				break;
 				
 			default:
-				printf("\nNúmero inválido\n");
+				printf("\nNÃºmero invÃ¡lido\n");
 				break;
 		}
 		i++;

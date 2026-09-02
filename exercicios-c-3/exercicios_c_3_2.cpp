@@ -9,7 +9,7 @@ int main() {
 	
 	while(c<=5)
 	{
-		printf("\nDigite o %i° número: \n", c);
+		printf("\nDigite o %iÂ° nÃºmero: \n", c);
 		scanf("%i", &n);
 		if(n%3==0)
 		{
@@ -18,7 +18,7 @@ int main() {
 		c++;
 	}
 	
-	printf("\nQuantidade de divisíveis por 3: %i\n", qn);
+	printf("\nQuantidade de divisÃ­veis por 3: %i\n", qn);
     
     system("pause");
     return 0;

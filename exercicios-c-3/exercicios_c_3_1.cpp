@@ -9,7 +9,7 @@ int main() {
 	
 	while(c<=5)
 	{
-		printf("\nDigite o %i° número: \n", c);
+		printf("\nDigite o %iÂ° nÃºmero: \n", c);
 		scanf("%i", &n);
 		if(n<0)
 		{

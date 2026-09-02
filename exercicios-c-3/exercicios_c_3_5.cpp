@@ -7,7 +7,7 @@ int main() {
 	
 	setlocale(LC_ALL, "");
 	
-	printf("\nDigite um número: \n");
+	printf("\nDigite um nÃºmero: \n");
 	scanf("%i", &n);
 	
 	while(i<=10)
