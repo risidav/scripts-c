@@ -3,22 +3,22 @@
 #include <locale.h>
 
 int main() {
-	int i, n, total=0;
+	int i, n, x, valor;
 	
 	setlocale(LC_ALL, "");
 	
-	printf("\nDigite um número para o cálculo fatorial: \n");
-	scanf("%i",&n);
+	printf("\nDigite um nÃºmero para cÃ¡lculo fatorial: \n");
+	scanf("%i", &n);
 	i=n;
+	x=n;
 	
-	do
+	while(i>1)
 	{
 		i--;
-		total*=i;
+		x*=i;
 	}
-	while(i>1);
     
-    printf("\nFatorial de %i: %i \n", n, total);
+    printf("\nResultado: %i\n", x);
     
     system("pause");
     return 0;
